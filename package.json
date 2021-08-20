@@ -1,0 +1,12 @@
+{
+  "name": "test-changelog-automatically",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Christian Corrales <chriscorrales29@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "husky": "^7.0.1"
+  }
+}
