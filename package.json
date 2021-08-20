@@ -4,16 +4,16 @@
   "main": "index.js",
   "author": "Christian Corrales <chriscorrales29@gmail.com>",
   "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog-ptbr"
+    }
+  },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog-ptbr": "1.0.0",
     "husky": "^7.0.1"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog-ptbr"
-    }
   }
 }
